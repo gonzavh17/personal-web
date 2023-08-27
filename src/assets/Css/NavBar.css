@@ -1,0 +1,34 @@
+.nav-bar-container {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 25px;
+  margin: 0 7px;
+}
+
+.motion-div__container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar_name {
+  font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+    .nav-bar_name{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+}

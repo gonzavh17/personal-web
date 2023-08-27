@@ -1,0 +1,13 @@
+.box-animation{
+    height: 5rem;
+    width: 5rem;
+    background-color: cadetblue;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
