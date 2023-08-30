@@ -1,7 +1,6 @@
 .nav-bar-container {
   padding: 15px;
   display: flex;
-  justify-content: space-between;
 }
 
 .icon {
@@ -23,6 +22,17 @@
 .nav-bar_name {
   font-size: 30px;
 }
+
+.nav-bar_surname{
+  font-size: 30px;
+  color: white;
+}
+
+.surname-container{
+  padding: 5px 12px;
+  background-color: #000;
+}
+
 
 @media (max-width: 1024px) {
     .nav-bar_name{

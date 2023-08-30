@@ -25,7 +25,7 @@ export const Home = () => {
           }}
           transition={{
             duration: 0.5,
-            delay:3.25,
+            delay:1.25,
             damping: 100,
           }}
         >
@@ -44,7 +44,7 @@ export const Home = () => {
           }}
           transition={{
             duration: 0.5,
-            delay:3.5,
+            delay:1.5,
             damping: 100,
           }}
         >
@@ -63,7 +63,7 @@ export const Home = () => {
         }}
         transition={{
           duration: 0.5,
-          delay:3.75,
+          delay:1.75,
           damping: 100,
         }}
         >
@@ -82,7 +82,7 @@ export const Home = () => {
         }}
         transition={{
           duration: 0.5,
-          delay:4,
+          delay:2,
           damping: 100,
         }}>
           <span className="icon">
@@ -91,9 +91,28 @@ export const Home = () => {
         </motion.div>
       </div>
 
+
       <div className="div2">
-        <p className="home-title">Fullstack Developer</p>
+        <motion.p className="home-title"
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        initial={{
+          y: 50,
+          opacity: 0,
+        }}
+        transition={{
+          duration: 0.5,
+          delay:1,
+          damping: 100,
+        }}>Fullstack Developer</motion.p>
       </div>
+
+
+      {/* <div className="div2">
+        <p className="home-title">Fullstack Developer</p>
+      </div> */}
 
       <div >
 
