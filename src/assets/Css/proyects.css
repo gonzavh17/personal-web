@@ -103,6 +103,11 @@
 
 @media (max-width: 767px) {
 
+  .proyects-title{
+    font-size: 40px;
+  }
+
+
   .proyect-parent{
     display: flex;
     flex-direction: column;
@@ -127,4 +132,13 @@
     display: none;
   }
 
+
+  .proyect-title{
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .proyect-description{
+    font-size: 18px;
+  }
 }

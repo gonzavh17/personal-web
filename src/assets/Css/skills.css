@@ -1,70 +1,129 @@
 .skills {
-}
-
-.skills-principal-title {
-  font-size: 90px;
+  min-height: 100vh;
+  margin-top: 50px;
 }
 
 .skills-title {
-  font-size: 60px;
+  font-size: 50px;
 }
 
-.skills-lenguages__container {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+.skill-div_title {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.skills-title_container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-div-title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+
+  padding: 10px;
+}
+
+.card {
+  background-color: #e1f4f3;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.skill-technologie {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.on-click-title {
+  cursor: pointer;
 }
 
 .skills-parent {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
+  grid-column-gap: 30px;
   grid-row-gap: 0px;
-  margin:30px 0;
+  margin: 50px;
 }
 
 .skills-div1 {
   grid-area: 1 / 1 / 2 / 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .skills-div2 {
   grid-area: 1 / 2 / 2 / 3;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+}
+.skills-div3 {
+  grid-area: 1 / 3 / 2 / 4;
 }
 
-.skills-lenguages {
-  font-size: 30px;
+.skills-tech-logo {
+  width: 15px;
+  height: 25px;
 }
 
-.skills-progress{
-  color: #61677A;
-}
-
-@media (max-width: 1024px){
-
-  .skills-title{
-    font-size: 50px;
-  }
-
-  .skills-principal-title{
-    font-size: 60px;
-  }
-
- .skills-parent {
+.skill-card {
   display: flex;
   flex-direction: column;
- }
+  align-items: center;
+}
+
+.skills-tech-logo_js {
+  width: 35px;
+  height: 25px;
+}
+.skills-tech-logo_html {
+  width: 45px;
+  height: 35px;
+}
+
+.skills-tech-logo_express {
+  width: 50px;
+  height: 40px;
+}
+
+.skills-tech-logo_sql {
+  width: 40px;
+  height: 45px;
+}
+
+.tech-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.skill-tech-icon {
+  font-size: 25px;
 }
 
 @media (max-width: 767px) {
+.skills-title{
+  font-size: 40px;
+}
 
-  .skills-title{
-    font-size: 30px;
+  .skills-parent {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .skills-div1{
+    border-bottom: 1px solid #DDE6ED;
+  }
+
+  .skills-div2{
+    border-bottom: 1px solid #DDE6ED;
+  }
+
+  .skills-div3{
+    border-bottom: 1px solid #DDE6ED;
   }
 }

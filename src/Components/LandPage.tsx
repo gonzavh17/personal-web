@@ -2,7 +2,7 @@ import React from "react";
 import { Home } from "./Home";
 import { AboutMe } from "./AboutMe";
 import Proyects from "./Proyects";
-import { Skills } from "./Skills";
+import  Skills  from "./Skills";
 import NavBar from "./NavBar";
 import Cursor from "./Cursor";
 
@@ -14,6 +14,7 @@ const LandPage = () => {
       <Home />
       <AboutMe />
       <Proyects/>
+      <Skills/>
     </div>
   );
 };

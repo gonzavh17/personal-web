@@ -6,6 +6,7 @@ import {ParallaxText} from './AnimationComponents/ParallaxText'
 import NavBar from "./Components/NavBar";
 import { Home } from "./Components/Home";
 import Cursor from "./Components/Cursor";
+import Skills from "./Components/Skills";
 function App() {
 
   const [loading, setLoading] = useState(false)
@@ -26,13 +27,15 @@ function App() {
     
     {/* <LoadingScreen/> */}
   
-    {/* <LandPage/> */}
+    <LandPage/>
 
-    {
+  {/* <Skills/> */}
+
+    {/* {
       loading ? <LoadingScreen/>
       :
       <LandPage/>
-    }
+    } */}
     
 
    

@@ -3,6 +3,7 @@ import '../assets/Css/loadingScreen.css'
 import { motion } from "framer-motion";
 import { Reveal } from "../AnimationComponents/Reveal";
 import WhiteCursor from "./WhiteCursor";
+import Counter from "../AnimationComponents/Counter";
 
 const LoadingScreen = () => {
   const [loadingNumber, setLoadingNumber] = useState(0);
@@ -49,6 +50,8 @@ const LoadingScreen = () => {
         
       </div>
       
+      <Counter/>
+
       {/* <motion.h1
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
