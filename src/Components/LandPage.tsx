@@ -13,8 +13,9 @@ const LandPage = () => {
       <Cursor />
       <Home />
       <AboutMe />
-      <Proyects/>
       <Skills/>
+      <Proyects/>
+   
     </div>
   );
 };

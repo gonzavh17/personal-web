@@ -1,6 +1,9 @@
 .skills {
   min-height: 100vh;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills-title {
