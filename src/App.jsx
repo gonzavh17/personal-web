@@ -27,15 +27,15 @@ function App() {
     
     {/* <LoadingScreen/> */}
   
-    <LandPage/>
+    {/* <LandPage/> */}
 
   {/* <Skills/> */}
 
-    {/* {
+    {
       loading ? <LoadingScreen/>
       :
       <LandPage/>
-    } */}
+    }
     
 
    

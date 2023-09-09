@@ -6,6 +6,7 @@ import  Skills  from "./Skills";
 import NavBar from "./NavBar";
 import Cursor from "./Cursor";
 import { ContactUs } from "./Contact";
+import Footer from './Footer'
 
 const LandPage = () => {
   return (
@@ -17,6 +18,7 @@ const LandPage = () => {
       <Skills/>
       <Proyects/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 };
