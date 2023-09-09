@@ -5,6 +5,7 @@ import Proyects from "./Proyects";
 import  Skills  from "./Skills";
 import NavBar from "./NavBar";
 import Cursor from "./Cursor";
+import { ContactUs } from "./Contact";
 
 const LandPage = () => {
   return (
@@ -15,7 +16,7 @@ const LandPage = () => {
       <AboutMe />
       <Skills/>
       <Proyects/>
-   
+      <ContactUs/>
     </div>
   );
 };

@@ -26,7 +26,7 @@ function Skills() {
      
      <div className="skills-title_container">
      <BlackReveal>
-        <p className="skills-title">Skills</p>
+        <p className="skills-title">Skills & Certification</p>
       </BlackReveal>
      </div>
 
