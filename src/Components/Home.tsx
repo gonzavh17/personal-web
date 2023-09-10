@@ -30,7 +30,8 @@ export const Home = () => {
           }}
         >
           <span className="icon">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <a className="icon-link" href="https://github.com/gonzavh17" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            
           </span>
         </motion.div>
         <motion.div
@@ -49,7 +50,7 @@ export const Home = () => {
           }}
         >
           <span className="icon">
-            <FontAwesomeIcon icon={faGithub} />
+            <a className="icon-link" href="https://github.com/gonzavh17" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
           </span>
         </motion.div>
         <motion.div
@@ -68,7 +69,8 @@ export const Home = () => {
         }}
         >
           <span className="icon">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <a href=""></a>
+            <a className="icon-link" href="#contact"><FontAwesomeIcon icon={faEnvelope} /></a>
           </span>
         </motion.div>
         <motion.div

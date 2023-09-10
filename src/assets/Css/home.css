@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.icon-link{
+  color: #000;
+}
+
 .home-title {
   display: block;
   white-space: nowrap;

@@ -61,7 +61,7 @@ export const ContactUs = () => {
   }; */
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-title_container">
         <BlackReveal>
           <p className="contact-title">Contact</p>
@@ -71,12 +71,12 @@ export const ContactUs = () => {
       <div className="contact-parent">
         <TextReveal customDelay={0.5}>
           <div className="contact-div1">
-            <img src={carImages.porsche5} className="contact-img"/>
+            <img src={carImages.porsche5} className="contact-img" />
             <p className="contact-description">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore,
-              earum! Impedit cum omnis sed, nobis itaque temporibus est
-              molestiae facilis dignissimos praesentium? Distinctio, pariatur
-              nam in ea natus sit hic?
+              Espero que hayas disfrutado de esta web, tanto como yo disfrute de
+              crearla, si deseas más información o ponerte en contacto conmigo,
+              simplemente completa el formulario a continuación y tu mensaje
+              llegará directamente a mi bandeja de entrada.
             </p>
           </div>
         </TextReveal>

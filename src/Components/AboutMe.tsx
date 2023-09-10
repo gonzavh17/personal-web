@@ -1,52 +1,11 @@
-import React, { useEffect, useRef } from "react";
 import "../assets/Css/aboutMe.css";
-import { motion, useAnimate, useAnimation, useInView } from "framer-motion";
 import { BlackReveal } from "../AnimationComponents/BlackReveal";
 import carImages from "../carImages";
-import AnimatedInView from "../AnimationComponents/ImgReveal";
+import TextReveal from "../AnimationComponents/TextReveal";
 
 export const AboutMe = () => {
   return (
     <div className="about-me">
-      {/* <div className="about-me-title_container">
-        <BlackReveal>
-          <p className="about-me-title">About Me</p>
-        </BlackReveal>
-      </div>
-      <div className="about-me-parent">
-        <div className="about-me-div1">
-          <BlackReveal>
-            <p className="about-me-description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, repellendus numquam fuga ducimus quasi id. Possimus
-              ducimus dolorem facilis expedita quod saepe sunt atque iusto
-              dolorum, error, doloremque quo eos? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Asperiores exercitationem quasi
-              repudiandae consequatur, itaque deserunt quae vero. Placeat nulla
-              omnis cum? Possimus reiciendis voluptate laboriosam debitis illum
-              voluptatum et aliquam!
-            </p>
-          </BlackReveal>
-        </div>
-        <motion.div className="about-me-div2"
-        animate={{
-          x: 0,
-          opacity: 1,
-        }}
-        initial={{
-          x: -50,
-          opacity: 0,
-        }}
-        transition={{
-          duration: 0.5,
-          delay:3.5,
-          damping: 100,
-        }}
-        >
-          <img className="about-me-img" src={carImages.f1} alt="" />
-        </motion.div>
-      </div> */}
-
       <div className="about-me">
         <div className="about-me-title__container">
           <BlackReveal>
@@ -56,24 +15,16 @@ export const AboutMe = () => {
         <div className="about-me-description_container">
           <BlackReveal>
             <p className="about-me-description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, repellendus numquam fuga ducimus quasi id. Possimus
-              ducimus dolorem facilis expedita quod saepe sunt atque iusto
-              dolorum, error, doloremque quo eos? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Asperiores exercitationem quasi
-              repudiandae consequatur, itaque deserunt quae vero. Placeat nulla
-              omnis cum? Possimus reiciendis voluptate laboriosam debitis illum
-              voluptatum et aliquam!
+            Hola! Me llamo Gonzalo Asís tengo 19 años y, soy de Argentina, Provincia de Buenos Aires, bienvenido a mi pagina personal. El objetivo de esta web, es demostrar de manera simple y sencilla, lo que son una de mis dos grandes pasiones, que me acompañan desde chico, la tecnología, y el mundo del automovilismo. En esta web, observaras mis conocimientos en tecnologías webs, y mis otros proyectos creados. Espero que lo disfrutes y sea de tu agrado!
             </p>
           </BlackReveal>
         </div>
 
         <div className="about-me-img_container">
-        <AnimatedInView>
-          <img className="about-me-img" src={carImages.f1} alt="" />
-          </AnimatedInView>
+          <TextReveal>
+            <img className="about-me-img" src={carImages.f1} alt="" />
+          </TextReveal>
         </div>
-
       </div>
     </div>
   );
