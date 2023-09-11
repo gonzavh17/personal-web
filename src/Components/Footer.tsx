@@ -16,16 +16,16 @@ function Footer() {
           <p className="footer-icon-description">Follow Me</p>
         </span>
         <span className="footer-icon">
-          <FontAwesomeIcon icon={faEnvelope} />
-          <a className="icon-link" href="#contact"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a className="icon-link" href="#contact"><FontAwesomeIcon icon={faEnvelope} /></a>
+          <p className="footer-icon-description">Email Me</p>
         </span>
         <span className="footer-icon">
-        <a className="icon-link" href="" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a className="icon-link"><FontAwesomeIcon icon={faLinkedin} /></a>
           <p className="footer-icon-description">Contact Me</p>
         </span>
         <span className="footer-icon">
-          <FontAwesomeIcon icon={faDownload} />
-          <a className="icon-link" href="https://drive.google.com/file/d/1PbuFlY6dln2zGiJsidXfZtHUtDDmYF30/view?usp=sharing"><FontAwesomeIcon icon={faDownload} /></a>
+        <a className="icon-link" href="https://drive.google.com/file/d/1PbuFlY6dln2zGiJsidXfZtHUtDDmYF30/view?usp=sharing"><FontAwesomeIcon icon={faDownload} /></a>
+          <p className="footer-icon-description">Downlaod my CV</p>
         </span>
       </div>
 
