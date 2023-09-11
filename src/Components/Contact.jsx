@@ -40,25 +40,6 @@ export const ContactUs = () => {
     }
   };
 
-  /*   const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_qg9zjgq",
-        "service_qg9zjgq",
-        form.current,
-        "gSO3rs0Mlcuit9c03"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  }; */
 
   return (
     <div className="contact" id="contact">

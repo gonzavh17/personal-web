@@ -88,7 +88,7 @@ export const Home = () => {
           damping: 100,
         }}>
           <span className="icon">
-            <FontAwesomeIcon icon={faDownload} />
+          <a className="icon-link" href="https://drive.google.com/file/d/1PbuFlY6dln2zGiJsidXfZtHUtDDmYF30/view?usp=sharing"><FontAwesomeIcon icon={faDownload} /></a>
           </span>
         </motion.div>
       </div>
