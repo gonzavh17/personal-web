@@ -12,20 +12,20 @@ function Footer() {
     <div className="footer-parent">
       <div className="footer-container">
         <span className="footer-icon">
-          <FontAwesomeIcon icon={faGithub} />
+        <a className="icon-link" href="https://github.com/gonzavh17" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
           <p className="footer-icon-description">Follow Me</p>
         </span>
         <span className="footer-icon">
           <FontAwesomeIcon icon={faEnvelope} />
-          <p className="footer-icon-description">Email Me</p>
+          <a className="icon-link" href="#contact"><FontAwesomeIcon icon={faEnvelope} /></a>
         </span>
         <span className="footer-icon">
-          <FontAwesomeIcon icon={faLinkedin} />
+        <a className="icon-link" href="" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
           <p className="footer-icon-description">Contact Me</p>
         </span>
         <span className="footer-icon">
           <FontAwesomeIcon icon={faDownload} />
-          <p className="footer-icon-description">Downlaod my CV</p>
+          <a className="icon-link" href="https://drive.google.com/file/d/1PbuFlY6dln2zGiJsidXfZtHUtDDmYF30/view?usp=sharing"><FontAwesomeIcon icon={faDownload} /></a>
         </span>
       </div>
 

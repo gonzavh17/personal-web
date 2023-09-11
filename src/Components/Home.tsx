@@ -30,7 +30,7 @@ export const Home = () => {
           }}
         >
           <span className="icon">
-            <a className="icon-link" href="https://github.com/gonzavh17" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a className="icon-link" href="" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             
           </span>
         </motion.div>
