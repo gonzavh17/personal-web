@@ -15,7 +15,13 @@ export const AboutMe = () => {
         <div className="about-me-description_container">
           <BlackReveal>
             <p className="about-me-description">
-            Hola! Me llamo Gonzalo Asís tengo 19 años y, soy de Argentina, Provincia de Buenos Aires, bienvenido a mi pagina personal. El objetivo de esta web, es demostrar de manera simple y sencilla, lo que son una de mis dos grandes pasiones, que me acompañan desde chico, la tecnología, y el mundo del automovilismo. En esta web, observaras mis conocimientos en tecnologías webs, y mis otros proyectos creados. Espero que lo disfrutes y sea de tu agrado!
+              Hola! Mi nombre es Gonzalo Asis, soy de Argentina, provincia de Buenos
+              Aires. El objetivo de esta web, es
+              demostrar de manera simple y sencilla lo que es una, de mis dos
+              grandes pasiones, que me acompañan desde pequeño, la tecnología y
+              el mundo del automovilismo. En este espacio encontrarás mis
+              conocimientos y proyectos creados. Espero lo disfrutes y sea de tu
+              agrado.
             </p>
           </BlackReveal>
         </div>

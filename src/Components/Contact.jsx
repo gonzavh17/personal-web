@@ -1,12 +1,26 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../assets/Css/contact.css";
 import carImages from "../carImages";
 import { BlackReveal } from "../AnimationComponents/BlackReveal";
 import TextReveal from "../AnimationComponents/TextReveal";
+import {Toaster, toast } from 'react-hot-toast'
 
 export const ContactUs = () => {
   const form = useRef();
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
+
+  const handleInputChange = (e) => {
+    const {name, value}= e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,28 +32,34 @@ export const ContactUs = () => {
 
       // Realiza la validación aquí
       if (!nameInput.value || !emailInput.value || !textArea.value) {
-        alert("Por favor, completa todos los campos del formulario.");
+        toast.error("Porfavor complete el formulario")
         return;
       }
 
       emailjs
-        .sendForm(
-          "service_qg9zjgq",
-          "template_hgbvajp",
-          form.current,
-          "gSO3rs0Mlcuit9c03"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    }
-  };
+          .sendForm(
+            "service_qg9zjgq",
+            "template_hgbvajp",
+            form.current,
+            "gSO3rs0Mlcuit9c03"
+          )
+          .then(
+            (result) => {
+              toast.success('Formulario enviado correctamente!')
 
+            },
+            (error) => {
+              toast.error("El formulario no pudo enviarse")
+            }
+          );
+    }
+
+    setFormData({
+      user_name: "",
+      user_email: "",
+      message: "",
+    });
+  };
 
   return (
     <div className="contact" id="contact">
@@ -70,6 +90,8 @@ export const ContactUs = () => {
                 name="user_name"
                 className="name-input"
                 placeholder="Insert your name"
+                value={formData.user_name}
+                onChange={handleInputChange}
               />
               <label className="form-input" placeholder="Insert your email">
                 Email
@@ -79,12 +101,16 @@ export const ContactUs = () => {
                 name="user_email"
                 className="email-input"
                 placeholder="Insert your name"
+                value={formData.user_email}
+                onChange={handleInputChange}
               />
               <label className="form-label">Message</label>
               <textarea
                 name="message"
                 className="text-area"
                 placeholder="Write your message"
+                value={formData.message}
+                onChange={handleInputChange}
               />
               <div className="btn-send_container">
                 <input type="submit" value="Send" className="send-btn" />
@@ -93,6 +119,7 @@ export const ContactUs = () => {
           </div>
         </TextReveal>
       </div>
+      <Toaster/>
     </div>
   );
 };

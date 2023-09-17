@@ -11,7 +11,7 @@ const LoadingScreen = () => {
       <div className="loadingScreen">
         <div className="loadingScreen-title__container">
           <Reveal>
-            <p className="loadingScreen-title">Welcome to My portfolio</p>
+            <p className="loadingScreen-title">Bienvenido a mi web!</p>
           </Reveal>
         </div>
       </div>
