@@ -1,9 +1,6 @@
 import React from "react";
 import "../assets/Css/NavBar.css";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function NavBar() {
   return (
