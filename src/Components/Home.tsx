@@ -31,7 +31,9 @@ export const Home = () => {
           <span className="icon">
             <a
               className="icon-link"
-              href="https://www.linkedin.com/in/gonzalo-asis-814051291/"
+              href="https://www.linkedin.com/in/devgonzaloasis
+
+              "
               target="_blank"
             >
               <FontAwesomeIcon icon={faLinkedin} />
