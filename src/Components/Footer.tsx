@@ -40,7 +40,7 @@ function Footer() {
         <span className="footer-icon">
           <a
             className="icon-link"
-            href="https://drive.google.com/file/d/1PbuFlY6dln2zGiJsidXfZtHUtDDmYF30/view?usp=sharing"
+            href="https://drive.google.com/file/d/1SiKURKTe08gF2V0aFSVv44_15dYba1hL/view?usp=sharing"
             target="_blank"
           >
             <FontAwesomeIcon icon={faDownload} />
