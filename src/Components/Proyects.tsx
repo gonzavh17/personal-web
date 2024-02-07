@@ -3,7 +3,7 @@ import "../assets/Css/proyects.css";
 import TextReveal from "../AnimationComponents/TextReveal";
 import { BlackReveal } from "../AnimationComponents/BlackReveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCloud } from "@fortawesome/free-solid-svg-icons";
+import { faCloud, faFlagCheckered, faPalette } from "@fortawesome/free-solid-svg-icons";
 import {
   faHtml5,
   faCss3,
@@ -19,7 +19,7 @@ function Proyects() {
     <div className="proyects">
       <div className="proyects-title_container">
         <BlackReveal>
-          <p className="proyects-title">Proyects</p>
+          <p className="proyects-title">Fullstack Proyects</p>
         </BlackReveal>
       </div>
 
@@ -256,6 +256,120 @@ function Proyects() {
         </div>
       </div>
      </TextReveal>
+
+     <div className="proyects-title_container">
+        <BlackReveal>
+          <p className="proyects-title">Landing pages</p>
+        </BlackReveal>
+      </div>
+
+      <TextReveal customDelay={0.3}>
+      <div className="proyects-container">
+        <div className="proyect-parent">
+          <div className="proyect-div1">
+            <div className="proyect">
+              <div className="proyect-title_container">
+                <p className="proyect-title">ArtÉclectique</p>
+              </div>
+              <div className="proyect-description_container">
+                <p className="proyect-description">
+                ¡Bienvenido a ArtÉclectique! Sumérgete en el vibrante mundo del pop art a través de nuestra galería digital. Explora una amplia variedad de estilos, desde las icónicas obras de artistas influyentes como Andy Warhol y Roy Lichtenstein, hasta las emocionantes creaciones de talentosos artistas emergentes. Navega por nuestras galerías temáticas, descubre las últimas tendencias y encuentra inspiración en el arte pop en todas sus formas. Únete a nosotros en este viaje emocionante a través de la cultura popular y la expresión artística en constante evolución. ¡Prepárate para una experiencia pop art extraordinaria en ArtÉclectique!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="proyect-div2">
+            <div className="proyect-widget_container">
+              <span className="proyect-widget-span">
+                <FontAwesomeIcon className="proyect-widget" icon={faPalette} />
+              </span>
+            </div>
+          </div>
+          <div className="proyect-div3">
+            <div className="proyect-technologies_container">
+              <span className="proyect-technologie-span">
+                <FontAwesomeIcon
+                  className="proyect-technologie-widget"
+                  icon={faReact}
+                />
+              </span>
+              <span className="proyect-technologie-span">
+                <FontAwesomeIcon
+                  className="proyect-technologie-widget"
+                  icon={faCss3}
+                />
+              </span>
+              <span className="proyect-technologie-span">
+                <FontAwesomeIcon
+                  className="proyect-technologie-widget"
+                  icon={faJs}
+                />
+              </span>
+            </div>
+            <div className="proyect-technologies_container">
+            <span className="proyect-technologie-span">
+            <a href="https://github.com/gonzavh17/pomodoro-app" className="icon-link" target="_blank"><FontAwesomeIcon className="proyect-technologie-widget" icon={faGithub} /></a>
+              </span>
+              <a className="proyect-technologie-span" href="https://pomodoro-app-woad-eight.vercel.app/" target="_blank">
+                <FontAwesomeIcon className="proyect-technologie-widget" icon={faArrowRight} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </TextReveal>
+
+      <TextReveal customDelay={0.3}>
+     <div className="proyects-container">
+        <div className="proyect-parent-m">
+          <div className="proyect-div1-m">
+            <div className="proyect">
+              <div className="proyect-title_container">
+                <p className="proyect-title">918 Chronicles</p>
+              </div>
+              <div className="proyect-description_container">
+                <p className="proyect-description">
+                Explora el apasionante mundo de la ingeniería automotriz con nuestra plataforma dedicada al Porsche 918. Sumérgete en la fusión perfecta entre rendimiento y eficiencia, descubre las especificaciones técnicas, la historia detrás de este icónico modelo y déjate cautivar por su diseño vanguardista. Desde los detalles de su motor híbrido hasta los tiempos en los circuitos más exigentes, nuestra web te ofrece una experiencia completa para los amantes de la velocidad y la excelencia automotriz.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="proyect-div2-m">
+            <div className="proyect-widget_container">
+              <span className="proyect-widget-span">
+                <FontAwesomeIcon className="proyect-widget" icon={faFlagCheckered} />
+              </span>
+            </div>
+          </div>
+          <div className="proyect-div3-m">
+            <div className="proyect-technologies_container">
+              <span className="proyect-technologie-span">
+                <FontAwesomeIcon
+                  className="proyect-technologie-widget"
+                  icon={faReact}
+                />
+              </span>
+              <span className="proyect-technologie-span">
+                <FontAwesomeIcon
+                  className="proyect-technologie-widget"
+                  icon={faCss3}
+                />
+              </span>
+            </div>
+            <div className="proyect-technologies_container">
+            <span className="proyect-technologie-span">
+            <a href="https://github.com/gonzavh17/918-landpage" className="icon-link" target="_blank"><FontAwesomeIcon className="proyect-technologie-widget" icon={faGithub} /></a>
+              </span>
+              <a className="proyect-technologie-span" href="https://918-landpage.vercel.app/" target="_blank">
+                <FontAwesomeIcon className="proyect-technologie-widget" icon={faArrowRight} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </TextReveal>
+
+     
     </div>
   );
 }
