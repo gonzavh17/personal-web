@@ -308,9 +308,9 @@ function Proyects() {
             </div>
             <div className="proyect-technologies_container">
             <span className="proyect-technologie-span">
-            <a href="https://github.com/gonzavh17/pomodoro-app" className="icon-link" target="_blank"><FontAwesomeIcon className="proyect-technologie-widget" icon={faGithub} /></a>
+            <a href="https://art-clectique.vercel.app/" className="icon-link" target="_blank"><FontAwesomeIcon className="proyect-technologie-widget" icon={faGithub} /></a>
               </span>
-              <a className="proyect-technologie-span" href="https://pomodoro-app-woad-eight.vercel.app/" target="_blank">
+              <a className="proyect-technologie-span" href="https://github.com/gonzavh17/Art-clectique" target="_blank">
                 <FontAwesomeIcon className="proyect-technologie-widget" icon={faArrowRight} />
               </a>
             </div>
